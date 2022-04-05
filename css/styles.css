@@ -395,6 +395,10 @@ address {
   border: solid var(--accent-color);
 }
 
+.client-icon {
+  border-bottom: 15px 31px 15px 31px;
+}
+
 .client-icon:hover,
 .client-icon:focus {
   fill: var(--accent-color);

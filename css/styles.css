@@ -12,7 +12,6 @@
 
 .list {
   list-style: none;
-
   display: flex;
   justify-content: space-between;
 }
@@ -542,6 +541,7 @@ address {
 }
 
 .main-work-link {
+  position: relative;
   display: block;
 }
 
@@ -601,6 +601,30 @@ address {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-
   margin-top: 4px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(33, 150, 243, 0.9);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 63px 24px;
+  font-family: var(--basic-title);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color:var(--light-color)
+}
+
+.work-image {
+  position:relative;
+
 }

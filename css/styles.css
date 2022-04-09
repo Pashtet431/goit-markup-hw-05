@@ -120,6 +120,18 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  position: relative;
+}
+
+.nav-contacts.current::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 4px;
+  border-radius: 2px;
+  bottom: -32px;
+  display: block;
+  background-color: var(--accent-color);
 }
 
 .nav-list,

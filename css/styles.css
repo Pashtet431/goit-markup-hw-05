@@ -22,6 +22,7 @@
 
 .link {
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 body {
   font-family: var(--basic-title);
@@ -131,7 +132,6 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-
   display: flex;
   align-items: center;
 }
@@ -165,6 +165,7 @@ address {
 .icon-mail,
 .icon-tel {
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero {
@@ -346,11 +347,13 @@ address {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-icon,
 .client-icon {
   fill: var(--social-icon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover .social-list-icon,
@@ -487,6 +490,7 @@ address {
 .invitation-list-link,
 .invitation-list-link {
   background-color: rgba(255, 255, 255, 10%);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .invitation-list-link:hover,
@@ -525,11 +529,13 @@ address {
   color: var(--main-color);
   background-color: #f5f4fa;
   cursor: pointer;
-
   min-height: 38px;
   padding: 6px 22px;
   border-width: 0;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-p:hover,
@@ -543,6 +549,7 @@ address {
 .main-work-link {
   position: relative;
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-work-link:hover,
